@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex, nofollow">
+        <link rel="icon" type="image/x-icon" href="images/favicon_io-3/apple-touch-icon.png">
+        <title>On Spot Auto Care</title>
+        <link rel="stylesheet" href="LiedyaDivya_A3.css">
+        <link rel="stylesheet" href="core-style.css">
+    </head>
+
+    <body>
+        <header id="cs-navigation">
+        <!-- ============================================ -->
+        <!--                 Navigation                   -->
+        <!-- ============================================ -->
+            <div class="cs-container">
+              <!--Nav Logo-->
+              <a href="" class="cs-logo" aria-label="back to home">
+                  <img src="images/OnSpotAutoCare-logo.png" alt="On spot auto care logo" width="210" height="29" aria-hidden="true" decoding="async">
+              </a>
+              <!--Navigation List-->
+              <nav class="cs-nav" role="navigation">
+                  <!--Mobile Nav Toggle-->
+                  <button class="cs-toggle" aria-label="mobile menu toggle">
+                      <div class="cs-box" aria-hidden="true">
+                          <span class="cs-line cs-line1" aria-hidden="true"></span>
+                          <span class="cs-line cs-line2" aria-hidden="true"></span>
+                          <span class="cs-line cs-line3" aria-hidden="true"></span>
+                      </div>
+                  </button>
+              <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                  <div class="cs-ul-wrapper">
+                      <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                          <li class="cs-li"><a href="" class="cs-li-link cs-active">Home</a></li>
+                          <li class="cs-li"><a href="" class="cs-li-link">About</a></li>
+                          <li class="cs-li"><a href="" class="cs-li-link">Services</a></li>
+                          <li class="cs-li"><a href="" class="cs-li-link">Contact</a> </li>
+                      </ul>
+                  </div>
+              </nav>
+              <a href="" class="cs-button-solid cs-nav-button">ENQUIRE NOW</a>
+            </div>
+          </header>
+   
+    <main>
+      <!-- ============================================ -->
+      <!--                    Hero                      -->
+      <!-- ============================================ -->
+      <div class="hero-slider">
+        <div class="slide active" style="background-image: url('images/hero-image/hero-slide1.jpg');">
+          <div class="slide-content">
+            <h1>Welcome to On Spot Autocare</h1>
+            <p>Where your car gets the care it deserves — anytime, anywhere.</p>
+            <button onclick="alert('Enquire Now')">Enquire Now</button>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('images/hero-image/hero-slide2.jpg');">
+          <div class="slide-content">
+            <h1>See Our Work in Action</h1>
+            <p>From detailing to diagnostics — real results, real satisfaction.</p>
+            <button onclick="alert('Discover Gallery!')">Discover Our Gallery</button>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('images/hero-image/hero-slide3.jpg');">
+          <div class="slide-content">
+            <h1>Need Fast Advice? Let's Talk!</h1>
+            <p>Book a quick call with our experts — no wait, no hassle.</p>
+            <button onclick="alert('Start Quick Call!')">Request a Call Back</button>
+          </div>
+        </div>
+        <button class="nav prev">&#10094;</button>
+        <button class="nav next">&#10095;</button>
+      </div>
+
+      <!-- ============================================ -->
+      <!--           Search Bar and Google Maps         -->
+      <!-- ============================================ -->
+      <!--Search Bar-->
+      <div class="section3-SearchGoogle">
+        <section id="searchBar-12">
+          <div class="eligibility-container">
+            <div class="eligibility-header">Let's find out if your location is eligible for our services</div>
+          <form class="eligibility-form" id="eligibilityForm">
+            <input
+              class="eligibility-input"
+              id="postcodeInput"
+              type="text"
+              placeholder="Enter your suburb or postcode"
+              required>
+            <button class="eligibility-button" type="submit">Submit</button>
+          </form>
+          <div id="eligibilityMessage" style="margin-top:1rem; font-size:clamp(1rem, 1vw, 5rem); color:#ff1900; text-align:center;"></div>
+            <a class="eligibility-link" href="#">or see the list of locations that we serve</a>
+          </div>
+        </section>
+      <!--Google Maps-->
+        <section id="googleMaps">
+          <div class="googleMaps-box">
+            <h2 class="googleMaps-header">Discover Our Location Through Maps</h2>
+            <div class="googleMaps-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.303695091247!2d144.90789287595794!3d-38.36509537184255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad5c99e68f866f9%3A0x944caf5c107742e8!2sOn%20spot%20auto%20care!5e0!3m2!1sen!2sau!4v1747400113595!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- ============================================ -->
+      <!--                  Services                    -->
+      <!-- ============================================ -->
+      <section id="services-448">
+        <div class="cs-container">
+          <div class="cs-content">
+            <h2 class="cs-title">Offer The Best Services In Mornington Peninsula</h2>
+            <p class="cs-text">Trusted by locals for reliable, round-the-clock car care—always ready to keep you moving, no matter the time.</p>
+          </div>
+          <ul class="cs-card-group">
+            <li class="cs-item">
+              <div class="cs-flex">
+                <picture class="cs-wrapper">
+                  <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/service-icon/wrench.png" alt="Icon of wrench" width="70" height="70">
+                </picture>
+                <h3 class="cs-h3">24/7 Services</h3>
+                <p class="cs-item-text">Anytime, any day, your car's best friend is just a call away.</p>
+                <a href="" class="cs-link">Read More</a>
+              </div>
+              <picture class="cs-picture">
+                <source media="(max-width: 600px)" src="images/service-pic/service-1.jpg">
+                <source media="(min-width: 601px)" src="images/service-pic/service-1.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="images/service-pic/service-1.jpg" alt="mechanical tools" width="345" height="428">
+              </picture>
+            </li>
+            <li class="cs-item">
+              <div class="cs-flex">
+                <picture class="cs-wrapper">
+                  <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/service-icon/user.png" alt="Person icon" width="70" height="70">
+                </picture>
+                <h3 class="cs-h3">About Us</h3>
+                <p class="cs-item-text">Get to know the team behind your trusted 24/7 car care.</p>
+                <a href="" class="cs-link">Read More</a>
+              </div>
+              <picture class="cs-picture">
+                <source media="(max-width: 600px)" src="images/service-pic/service-2.jpg">
+                <source media="(min-width: 601px)" src="images/service-pic/service-2.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="images/service-pic/service-2.jpg" alt="About Us" width="345" height="428">
+              </picture>
+            </li>
+            <li class="cs-item">
+              <div class="cs-flex">
+                <picture class="cs-wrapper">
+                  <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="images/service-icon/idea.png" alt="Idea icon" width="70" height="70">
+                </picture>
+                <h3 class="cs-h3">Why Choose Us?</h3>
+                <p class="cs-item-text">Reliable and Fast--Discover the difference that drives us.</p>
+                <a href="" class="cs-link">Read More</a>
+              </div>
+              <picture class="cs-picture">
+                <source media="(max-width: 600px)" src="images/service-pic/service-3.jpg">
+                <source media="(min-width: 601px)" src="images/service-pic/service-3.jpg">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="images/service-pic/service-3.jpg" alt="Why choose us" width="345" height="428">
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+                              
+      <!-- ============================================ -->
+      <!--                Google Review                 -->
+      <!-- ============================================ -->
+      <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+      <div class="google-review">
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-dada255e-723b-43b1-89c5-4fbb4d180486" data-elfsight-app-lazy></div>
+      </div>     
+    </main>
+
+    <footer id="cs-footer-269">
+    <!-- ============================================ -->
+    <!--                    Footer                    -->
+    <!-- ============================================ -->
+      <div class="cs-container">
+      <!-- Logo Group -->
+        <div class="cs-logo-group">
+          <a aria-label="go back to home" class="cs-logo" href="">
+            <img class="cs-logo-img light" aria-hidden="true" loading="lazy" decoding="async" src="images/OnSpotAutoCare-logo.png" alt="On Spot Auto Care logo">
+          </a>
+          <p class="cs-text">At On Spot Autocare, we are dedicated to providing top-notch automotive care, right where you need it.</p>
+          <!-- Social Media inside logo group -->
+          <div class="cs-social-group">
+            <div class="cs-social">
+              <a class="cs-social-link" aria-label="visit google profile" href="">
+                <img class="cs-social-img" src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg" alt="google">
+              </a>
+              <a class="cs-social-link" aria-label="visit facebook profile" href="">
+                <img class="cs-social-img" src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg" alt="facebook">
+              </a>
+              <a class="cs-social-link" aria-label="visit instagram profile" href="">
+                <img class="cs-social-img" src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg" alt="instagram">
+              </a>
+            </div>
+          </div>
+        </div>
+      <!-- Contact Info -->
+        <ul class="cs-nav">
+          <li class="cs-nav-li"><span class="cs-header">Contact Info</span></li>
+          <li class="cs-nav-li"><a class="cs-nav-link" href="https://g.co/kgs/RDXrnJw">Address: Mornington Victoria 3931</a></li>
+          <li class="cs-nav-li"><a class="cs-nav-link" href="">Call Us: +61426290300</a></li>
+          <li class="cs-nav-li"><a class="cs-nav-link" href="mailto:onspotexpert@gmail.com">Email: Onspotexpert@gmail.com</a></li>
+          <li class="cs-nav-li"><a class="cs-nav-link" href="">Timing: 24*7</a></li>
+        </ul>
+      <!-- Services Info -->
+        <ul class="cs-contact">
+          <li class="cs-nav-li"><span class="cs-header">Our Services</span></li>
+          <li class="cs-contact-li"><p>Auto Maintanace</p></li>
+          <li class="cs-contact-li"><p>Brake Repair Pads & Rotors Shocks</p></li>
+          <li class="cs-contact-li"><p>Struts Replacement</p></li>
+          <li class="cs-contact-li"><p>System Diagnosis & Repair Air</p></li>
+          <li class="cs-contact-li"><p>Conditioning Services</p></li>
+        </ul>
+      </div>
+    </footer>  
+    <script src="LiedyaDivya_A3.js"></script>                                       
+  </body>
+</html>
