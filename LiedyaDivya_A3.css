@@ -311,6 +311,7 @@
     color: #fff;
     display: block;
     position: relative;
+    font-weight: bold;
   }
   #cs-navigation .cs-li-link:hover:before,
   #cs-navigation .cs-li-link.cs-active:before {
