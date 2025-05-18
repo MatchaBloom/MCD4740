@@ -431,6 +431,7 @@ body, html {
 
 .slide-content {
   background: rgba(0, 0, 0, 0.4);
+  font-family: Georgia, serif;
   color: #fff;
   padding: 4vw 6vw; /* Use relative units */
   border-radius: 10px;
@@ -457,6 +458,7 @@ body, html {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .nav {
@@ -872,6 +874,7 @@ body, html {
   #services-448 .cs-h3 {
       /* 20px - 25px */
       font-size: clamp(1.25rem, 1.9vw, 1.5625rem);
+      font-family: Georgia, serif;
       line-height: 1.2em;
       font-weight: 700;
       margin: 0 0 0.5rem 0;
